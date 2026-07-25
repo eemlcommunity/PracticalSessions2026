@@ -14,7 +14,7 @@ with the TODO it unlocks, so you can unblock yourself without jumping to the ans
 
 1. Open the **STUDENT** notebook in Colab — click the badge:
 
-   [![Open In Colab](https://colab.research.google.com/drive/1D3edPa16xVPEP8nWWrkma2LmfIetNUdq?usp=sharing)](https://colab.research.google.com/drive/1D3edPa16xVPEP8nWWrkma2LmfIetNUdq?usp=sharing)
+   [Open In Colab](https://colab.research.google.com/drive/1D3edPa16xVPEP8nWWrkma2LmfIetNUdq?usp=sharing)
 2. **Runtime → Change runtime type → T4 GPU.** Part I trains faster on a GPU; Part II requires one and asserts it.
 3. Run cells top to bottom. Fill in each `# TODO` when you reach it, opening the hint cells above it if you get stuck.
 
