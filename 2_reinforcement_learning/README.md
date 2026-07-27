@@ -11,7 +11,7 @@
 
 ### Notebooks:
 
-[Tutorial](https://drive.google.com/file/d/18wOn0Ww5TzDy6ORxMSdy16ABjReJy_7P/view?usp=sharing)
+[Tutorial](https://colab.research.google.com/drive/1f6Knk-YToT2iIGskZ8kd5y2TT60PrWJb?usp=sharing)
 
 Tutorial with solutions
 
