@@ -57,7 +57,7 @@ Supervise images with text instead of labels, and get a shared image–text embe
 - Pre-training at scale, and zero-shot transfer
 - Choosing between supervised, self-supervised and contrastive — and why it isn't either/or
 
-### 5. Janus: one model that both understands and generates
+### 5. Unified Understanding and Generation Models
 
 - Setup, loading [Janus-Pro-1B](https://huggingface.co/deepseek-community/Janus-Pro-1B), and its "decoupled" architecture
 - Understanding 🖼️ → 📝: ask the model questions about an image
