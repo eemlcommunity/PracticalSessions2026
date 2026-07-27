@@ -2,11 +2,11 @@
 
 A hands-on tutorial on **vision-language models**, where you build the pieces yourself.
 
-There are 13 🧩 **TODO** blanks to fill in. A collapsible **Hint** cell sits just above each exercise, titled
+There are 14 🧩 **TODO** blanks to fill in. A collapsible **Hint** cell sits just above each exercise, titled
 with the TODO it unlocks, so you can unblock yourself without jumping to the answers.
 
-**Part I** (topics 1–4) builds a vision encoder from scratch and trains it three different ways.
-**Part II** (topic 5) puts a real unified model — Janus-Pro-1B — through both generation and understanding.
+**Part I** (Sections 1–4) builds a vision encoder from scratch and trains it three different ways.
+**Part II** (Section 5) puts a real unified model — Janus-Pro-1B — through both generation and understanding.
 
 > ⚠️ Needs a GPU — set **Runtime → Change runtime type → T4 GPU** before running.
 
@@ -14,7 +14,7 @@ with the TODO it unlocks, so you can unblock yourself without jumping to the ans
 
 1. Open the **STUDENT** notebook in Colab — click the badge:
 
-   [Open In Colab](https://colab.research.google.com/drive/1D3edPa16xVPEP8nWWrkma2LmfIetNUdq?usp=sharing)
+   [Open In Colab](https://colab.research.google.com/drive/1VvAUcXZbYn00lVVtqs9BGvMXqmT7x9xd?usp=sharing)
 2. **Runtime → Change runtime type → T4 GPU.** Part I trains faster on a GPU; Part II requires one and asserts it.
 3. Run cells top to bottom. Fill in each `# TODO` when you reach it, opening the hint cells above it if you get stuck.
 
@@ -35,7 +35,7 @@ The architecture everything else is built on.
 
 Train the ViT the familiar way: with labels.
 
-- The cross-entropy loss, from scratch
+- 🧩 The cross-entropy loss, from scratch — **TODO 7**
 - The training loop on CIFAR-10
 - Loading a pretrained ViT, and what the extra data buys you
 
@@ -43,9 +43,9 @@ Train the ViT the familiar way: with labels.
 
 Learn representations with no labels at all — hide 75% of the image, then reconstruct it.
 
-- 🧩 The reconstruction (MSE) loss — **TODO 7**
-- 🧩 Randomly masking patches — **TODO 8**
-- 🧩 The [MAE](https://arxiv.org/abs/2111.06377) encoder–decoder — **TODO 9**
+- 🧩 The reconstruction (MSE) loss — **TODO 8**
+- 🧩 Randomly masking patches — **TODO 9**
+- 🧩 The [MAE](https://arxiv.org/abs/2111.06377) encoder–decoder — **TODO 10**
 - Reconstructions before and after training
 - Reusing the pretrained MAE representation on a downstream task
 
@@ -53,8 +53,8 @@ Learn representations with no labels at all — hide 75% of the image, then reco
 
 Supervise images with text instead of labels, and get a shared image–text embedding space.
 
-- 🧩 The [CLIP](https://arxiv.org/abs/2103.00020) contrastive loss — **TODO 10**
-- Where contrastive learning went next
+- 🧩 The [CLIP](https://arxiv.org/abs/2103.00020) contrastive loss — **TODO 11**
+- Pre-training at scale, and zero-shot transfer
 - Choosing between supervised, self-supervised and contrastive — and why it isn't either/or
 
 ### 5. Janus: one model that both understands and generates
@@ -62,9 +62,9 @@ Supervise images with text instead of labels, and get a shared image–text embe
 - Setup, loading [Janus-Pro-1B](https://huggingface.co/deepseek-community/Janus-Pro-1B), and its "decoupled" architecture
 - Understanding 🖼️ → 📝: ask the model questions about an image
 - 🧩 Generation 📝 → 🖼️, autoregressively over 576 discrete VQ tokens (no diffusion!): classifier-free guidance
-  and temperature sampling — **TODOs 11–12**
+  and temperature sampling — **TODOs 12–13**
 - 🧩 Capstone (optional): make the model grade its own drawings, and show the score tracks guidance strength —
-  **TODO 13**
+  **TODO 14**
 - Bonus: interleaved create → critique → recreate, and "editing" through the text bottleneck
 - Wrap-up
 
