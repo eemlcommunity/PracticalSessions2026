@@ -1,6 +1,6 @@
 # [[EEML2026](https://www.eeml.eu)] Tutorial 2: Mechanistic Interpretability
 
-**Authors:** Arthur Conmy and Federico Barbero
+**Authors:** Federico Barbero, Alex Vitvitskyi, Larisa Markeeva
 
 
 --- 
