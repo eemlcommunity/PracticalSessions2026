@@ -17,6 +17,6 @@ The goal of mechanistic interpretability is to take a trained model and reverse 
 ### Notebooks
 
 Tutorial: [![Open In 
-Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/eemlcommunity/PracticalSessions2026-dev/blob/main/MechanisticInterpretability/mechanistic_interpretability_tutorial.ipynb)
+Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/eemlcommunity/PracticalSessions2026/blob/main/3_mechanistic_interpretability/mechanistic_interpretability_tutorial.ipynb)
 
 ---
