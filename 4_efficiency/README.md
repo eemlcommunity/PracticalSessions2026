@@ -2,17 +2,18 @@
 
 **Authors:** Alexandra Volkova and Andrei Panferov
 
+If you have any questions please contact anyone of us on EEML Slack.
 
 --- 
 
 
 ### Outline:
-
+Low precision formats, RTN quantization, GPTQ
 
 ### Notebooks:
 
-Tutorial 
+[Tutorial](https://github.com/eemlcommunity/PracticalSessions2026/blob/main/4_efficiency/tutorial.ipynb) 
 
-Tutorial with solutions
+[Tutorial with solutions](https://github.com/eemlcommunity/PracticalSessions2026/blob/main/4_efficiency/tutorial_solutions.ipynb)
 
 ---
